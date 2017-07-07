@@ -2,7 +2,7 @@
 
 <asp:Content runat="server" ID="FeaturedContent" ContentPlaceHolderID="FeaturedContent" >
 
-<div class="featured">
+<div class="featured" style="background-color:#0094ff">
     <div class="container">
         <div class="content">
 			<div class="container">
@@ -18,7 +18,7 @@
 					<div class="clearfix"></div>
 				</div>
         <div class="row">
-            <div class="feature-grids">
+            <div class="feature-grids" style="background-color:#0094ff">
                 <asp:Repeater ID="Repeater1" runat="server" DataSourceID="SqlDataSource1">
                     <ItemTemplate>
 			             <div class="col-md-3 feature-grid jewel">

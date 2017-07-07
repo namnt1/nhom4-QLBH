@@ -3,9 +3,9 @@
 
 <asp:Content runat="server" ID="FeaturedContent" ContentPlaceHolderID="FeaturedContent" >
     <div class="featured">
-    <div class="container">
+    <div class="container" >
         <div class="row">
-            <div class="feature-grids">
+            <div class="feature-grids" style="background-color:#0094ff">
         <asp:DetailsView ID="DetailsView1" runat="server" Height="50px" Width="100%" AllowPaging="True" AutoGenerateRows="False" DataKeyNames="id_sp" DataSourceID="SqlDataSource2">
             <AlternatingRowStyle BackColor="White" />
             <CommandRowStyle BackColor="#D1DDF1" Font-Bold="True" />
